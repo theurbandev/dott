@@ -21,7 +21,7 @@ li{list-style: none; width: 70vw;}
 
 #menuImg{
     background-image: url(../images/menuImg.jpg);
-    width: 50vw;
+    width: 48vw;
     height: 100vh;
     display: inline-block;
     float: right;
@@ -30,7 +30,7 @@ li{list-style: none; width: 70vw;}
 }
 #menuHeader{
     display: inline-block;
-    width: 50vw;
+    width:48vw;
 }
 #menuHeaderContainer{
     margin: 0px 50px;
