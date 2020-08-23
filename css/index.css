@@ -1,0 +1,187 @@
+body{margin: 0px; background-color: #ebe9e6 !important;}
+p{margin-bottom: 0px !important;}
+a{color: unset !important;}
+a:hover{text-decoration: none !important;}
+
+
+#reservations{
+    border: solid 1px white;
+    padding: 5px;
+    width: 150px;
+    font-size: 17px;
+    margin-right: 20px;
+    color: #d5dddb;
+    letter-spacing: 2px;
+    font-family: 'Nothing You Could Do', cursive;
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+    top: 20px;
+}
+#reservations:hover{
+    background-color: white;
+    color: black;
+}
+nav{
+    height: 100vh;
+    width: 12.5vw;
+    position: fixed;
+    background-color: #ebe9e6;
+}
+#navTitle{
+    text-align: center;
+    font-family: 'Nothing You Could Do', cursive;
+    font-size: 25px;
+    padding-top: 20px;
+    border-bottom: 2px solid #1a1a1a;
+    width: 50%;
+    margin: 0 auto;
+    font-weight: bold;
+    color: black;
+}
+#navMenu{
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    margin-top: 20px;
+}
+#navItem{
+    padding: 15px 0px;
+}
+#navItem:hover{
+font-size:18px;
+cursor: pointer;
+color: azure;
+background-color: black;
+}
+#icons{
+    width: 30px;
+}
+#cust1{
+    list-style: none;
+    margin: 10px 0px;
+    text-align: center;
+}
+#socialContainer{
+    position: absolute;
+    bottom: 40px;
+    right: 0;
+    left: 0;
+}
+
+
+header{
+    background-image: url(../images/header1.jpg);
+    position: relative;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.9;
+}
+.vertical-center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+.vertical-center *{
+    color: #ffffff;
+    font-size: 200px;
+    font-family: 'Cardo', serif;
+    font-size: 17em;
+    color: #ebe9e6;
+}
+
+
+#icons2 {
+    vertical-align: baseline;
+    width: 30px;
+}
+#card{
+    width: 49vw !important;
+    display: inline-block;
+    min-height: 350px;
+    border-radius: 0px;
+    border: none;
+    background-color: #ebe9e6;
+}
+.card2{
+    float: right;
+    background-image: url(../images/map.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.card3{
+    float: right;
+}
+.card5{
+    height: 70vh;
+    width: 95vw !important;
+    margin: 0 auto;
+}
+.card5 *{
+    text-align: center;
+    font-size: 5rem;
+    font-family: 'Cardo', serif;
+    margin-top: 35px;
+    padding: 0px 50px;
+}
+#card-body1{
+    padding: 80px 80px;
+}
+#card-body1-text1{
+    font-size: 40px;
+    font-family: 'Nothing You Could Do', cursive;
+}
+#card-body2-text2{
+    text-align: right;
+    font-size: 40px;
+    font-family: 'Nothing You Could Do', cursive;
+}
+#card-body1-text2Container{
+    border-bottom: solid 1.3px #1a1a1a;
+    height: 100px;
+    margin-top: 50px;
+}
+#card-body1-text2{
+    font-size: 15px;
+}
+#card1-floatL{
+    width: 33.333%;
+    display: inline-block;
+}
+
+#card1-floatM{
+    width: 33.333;
+    display: inline-block;
+    float: right;
+}
+#card1-floatR{
+    width: 33.333%;
+    display: inline-block;
+}
+
+#socialContainer2 ul{
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+}
+#cust2{
+    list-style: none;
+    margin: 0px 14px;
+}
+.carousel-inner {
+    max-height: 350px;
+}
+#fullMenuBttn{
+    border: solid 1px #000000;
+    padding: 5px;
+    width: 150px;
+    font-size: 17px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+

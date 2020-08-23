@@ -1,0 +1,71 @@
+body{margin: 0px; background-color: #ebe9e6 !important;}
+li{list-style: none; width: 70vw;}
+
+#back{color: black; position: absolute; top: 10px; left:10px; border:solid 2px black; padding: 5px;letter-spacing: 2px; font-family: 'Nothing You Could Do', cursive;}
+#reservations{
+    border: solid 2px black;
+    padding: 5px;
+    width: 120px;
+    color: black;
+    letter-spacing: 2px;
+    font-family: 'Nothing You Could Do', cursive;
+    cursor: pointer;
+    text-align: center;
+    display: inline-block;
+    margin-top: 20px;
+}
+#reservations:hover, #back:hover{
+    background-color: black;
+    color: white;
+}
+
+#menuImg{
+    background-image: url(../images/menuImg.jpg);
+    width: 50vw;
+    height: 100vh;
+    display: inline-block;
+    float: right;
+    background-position: center;
+    background-size: cover;
+}
+#menuHeader{
+    display: inline-block;
+    width: 50vw;
+}
+#menuHeaderContainer{
+    margin: 0px 50px;
+}
+#menuHeaderTxt{
+    font-family: 'Cardo', serif;
+    font-size: 65px;
+    margin-top: 20vh;
+    color: #1a1a1a;
+}
+#menuHeaderBody{
+    line-height: 30px;
+    font-size: 19px;
+}
+
+#foodTitle,#drinksTitle{
+    display: inline-block;
+    font-size: 25px;
+    font-family: 'Cardo', serif;
+    cursor: pointer;
+    margin: 20px;
+    margin-top: 70px;
+}
+#menuContentContainer{
+    background-color: #1a1a1a;
+    width: 83vw;
+    margin: 0 auto;
+    height: auto;
+    border-radius: 5px;
+    padding: 50px;
+}
+#menuContentContainer *{
+    color: white;
+    font-family: 'Nothing You Could Do', cursive;
+}
+#drinksMenu{
+    display: none;
+}
