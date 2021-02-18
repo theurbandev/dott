@@ -1,4 +1,4 @@
-body{margin: 0px; background-color: #ebe9e6 !important;}
+body{margin: 0px; background-color: #ebe9e6 !important; overflow-x: hidden;}
 p{margin-bottom: 0px !important;}
 a{color: unset !important;}
 a:hover{text-decoration: none !important;}
