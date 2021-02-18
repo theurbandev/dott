@@ -7,8 +7,9 @@ a:hover{text-decoration: none !important;}
 nav{
     height: 100vh;
     width: 12.5vw;
-    position: fixed;
+    position: absolute;
     background-color: #ebe9e6;
+    z-index: 1;
 }
 #navTitle{
     text-align: center;
@@ -55,6 +56,7 @@ nav{
     position: absolute;
     right: 0;
     top: 20px;
+    z-index: 1;
 }
 #reservations:hover{
     background-color: white;
@@ -91,12 +93,20 @@ nav{
 
 /* -- IMAGES -- */
 header{
-    background-image: url(../images/header1.jpg);
     position: relative;
     height: 100vh;
     background-size: cover;
     background-position: center;
     opacity: 0.9;
+}
+.bg-image{
+    background-image: url(../images/header1.jpg);
+    position: relative;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    filter: blur(3px);
+    z-index: 0;
 }
 .vertical-center {
     margin: 0;
@@ -105,6 +115,7 @@ header{
     left: 50%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
+    z-index: 1;
 }
 .vertical-center *{
     color: #ffffff;
@@ -113,30 +124,32 @@ header{
     font-size: 17em;
     color: #ebe9e6;
 }
+.card-img-top{
+    height: 310px;
+}
 
 
 /* -- CARDS -- */
 #card{
     width: 49vw !important;
     display: inline-block;
-    min-height: 350px;
+    max-height: 295px;
     border-radius: 0px;
     border: none;
     background-color: #ebe9e6;
 }
 .card2{
-    float: right;
-    background-image: url(../images/map.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
+    display: none !important;
 }
 .card3{
     float: right;
 }
 .card5{
-    height: 70vh;
-    width: 95vw !important;
-    margin: 0 auto;
+    display: table-cell !important;
+    vertical-align: middle;
+    width: 70% !important;
+    height: 600px;
+    background-color: #bdbdbd17 !important;
 }
 .card5 *{
     text-align: center;
@@ -145,8 +158,16 @@ header{
     margin-top: 35px;
     padding: 0px 50px;
 }
+.card4{
+    display: none !important;
+}
+
 #card-body1{
     padding: 80px 80px;
+}
+#card-body2{
+    padding: 10px 80px;
+    margin-bottom: 50px;
 }
 #card-body1-text1{
     font-size: 40px;
@@ -194,4 +215,67 @@ header{
 /* -- CAROUSEL -- */
 .carousel-inner {
     max-height: 350px;
+}
+
+
+/* -- OTHER -- */
+#gmaps{
+    min-height: 350px;
+    width: 100%;
+}
+#specialsTitle{
+    font-family: 'Nothing You Could Do', cursive;
+    font-size: 40px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-decoration: underline;
+    letter-spacing: 1px;
+}
+#section2{
+    min-height: 295px;
+}
+#section3{
+    width: 95%;
+    display: block;
+    margin: 0 auto;
+}
+#section4{
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+#card_container{
+    max-width: 1500px;
+    margin: 0 auto;
+}
+.special_card_title{
+    font-family: 'Nothing You Could Do', cursive;
+    letter-spacing: 1px;
+}
+.special_card_desc{
+    font-family: 'Cardo', serif;
+    font-size: 13px;
+    color: #585050;
+}
+.special_card_body{
+    background-color: #bdbdbd17 !important;
+    border-bottom: solid 1px #989292;
+    border-radius: 2px;
+}
+#mobileWarning{
+    display: none;
+}
+
+@media(max-width:1300px){
+    #mobileWarning{
+        color: white;
+        font-size: 15px;
+        text-align: center;
+        display: table-cell !important;
+        vertical-align: middle;
+        height: 100vh;
+        width: 100vw;
+    }
+    body{ background-color: #1a1a1a !important;}
+    #desktop_only{display: none;}
 }

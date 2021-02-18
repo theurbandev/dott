@@ -15,6 +15,7 @@
     
 </head>
 <body>
+    <span id="desktop_only">
     <header>
         <div id='reservations'>Reservatons</div>
             <nav data-aos="fade-right"> 
@@ -24,7 +25,7 @@
                     <a href="menu.html"> <li id='navItem'>FOOD</li> </a>
                     <a href="menu.html#drinks"> <li id='navItem'>DRINKS</li> </a> 
                     <a href="#section1"> <li id='navItem'>CONTACT</li> </a>
-                    <a href=""> <li id='navItem'>GALLERY</li> </a>
+                    <a href="gallery.html"> <li id='navItem'>GALLERY</li> </a>
                 </ul>
 
                 <span id='socialContainer'>
@@ -36,8 +37,9 @@
                 </span>
             </nav>
         <div class="vertical-center">
-            <h1 data-aos="fade-down">doṫṫ</h1>
+            <h1 data-aos="fade-down" style="margin-top: 0px !important;">doṫṫ</h1>
         </div>
+        <div class="bg-image"></div>
     </header>
 
     <section id='section1'>
@@ -65,14 +67,15 @@
                     </div>
                 </div>  
             </div>
-            <div class="card card2" id="card" style="width: 18rem;"></div>
+            <div class="card card2" id="card" style="width: 18rem;"><iframe id="gmaps" src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d3087.301956248142!2d-75.61127762699704!3d39.304078416620186!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1spats+pizza!5e0!3m2!1sen!2sus!4v1539236166810" class="googleMaps" allowfullscreen>
+            </iframe></div>
         </div>
     </section>
 
     <section id='section2'>
         <div class="card card3" id="card" style="width: 18rem;">
             <div class="card" id="card" style="width: 18rem;">
-                <div class="card-body" id='card-body1' data-aos="fade-left">
+                <div class="card-body" id='card-body2' data-aos="fade-left">
                   <h5 id="card-body2-text2">Menu.</h5>
                     <div id='card-body1-text2Container'>
                         <div id='card2-floatR'>
@@ -117,6 +120,42 @@
         </div>
     </section>
 
+    <section id='section4'>
+        <h3 id="specialsTitle">Todays Specials</h3>
+        <span id="card_container" class="row">
+            <div id='cardsContainer' data-aos="fade-right" class="col-sm col-md"> 
+                <div class="card" style="background-color: #bdbdbd17;">
+                    <img class="card-img-top" src="images/foodItem3.jpg" alt="Card image cap">
+                    <div class="card-body special_card_body">
+                    <h5 class="card-title special_card_title">Chefs Special Soup</h5>
+                    <p class="card-text special_card_desc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos omnis quas quia, fugiat exercitationem.</p>
+                    </div>
+                </div>
+            </div>
+            <div id='cardsContainer' data-aos="fade-right" class="col-sm col-md "> 
+                <div class="card" style="background-color: #bdbdbd17;">
+                    <img class="card-img-top" src="images/foodItem2.jpg" alt="Card image cap">
+                    <div class="card-body special_card_body">
+                        <h5 class="card-title special_card_title">Salmon Spread</h5>
+                        <p class="card-text special_card_desc">Aut minima, corrupti sit aliquam ad amet impedit repellat voluptates aliquid. Eveniet praesentium.</p>
+                    </div>
+                </div>
+            </div>
+            <div id='cardsContainer' data-aos="fade-right" class="col-sm col-md "> 
+                <div class="card" style="background-color: #bdbdbd17;">
+                    <img class="card-img-top" src="images/foodItem1.jpg" alt="Card image cap">
+                    <div class="card-body special_card_body">
+                    <h5 class="card-title special_card_title">Green Eggs and Ham</h5>
+                    <p class="card-text special_card_desc">Hic delectus inventore. Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis modi libero.</p>
+                    </div>
+                </div>
+            </div>
+        </span>
+    </section>
+    <br>
+    <br>
+    </span>
+    <div id="mobileWarning">PLEASE VIEW IN A DESKTOP BROWSER</div>
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
