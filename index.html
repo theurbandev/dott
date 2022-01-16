@@ -17,32 +17,77 @@
 <body>
     <span id="desktop_only">
     <header>
-        <div id='reservations'>Reservatons</div>
-            <nav data-aos="fade-right"> 
-                <h1 id='navTitle'>doṫṫ</h1>
-                <ul id='navMenu'>
-                    <a href="#section3"><li id='navItem'>ABOUT US</li> </a>
-                    <a href="menu.html"> <li id='navItem'>FOOD</li> </a>
-                    <a href="menu.html#drinks"> <li id='navItem'>DRINKS</li> </a> 
-                    <a href="#section1"> <li id='navItem'>CONTACT</li> </a>
-                    <a href="gallery.html"> <li id='navItem'>GALLERY</li> </a>
-                </ul>
+        <nav data-aos="fade-right"> 
+            <h1 id='navTitle'>doṫṫ</h1>
+            <ul id='navMenu'>
+                <a href="#section3"><li id='navItem'>ABOUT US</li> </a>
+                <a href="menu.html"> <li id='navItem'>FOOD</li> </a>
+                <a href="menu.html#drinks"> <li id='navItem'>DRINKS</li> </a> 
+                <a href="#section1"> <li id='navItem'>CONTACT</li> </a>
+                <a href="gallery.html"> <li id='navItem'>GALLERY</li> </a>
+            </ul>
 
-                <span id='socialContainer'>
-                    <ul style="padding: 0px;">
-                        <a target="_blank" href="#"><li style="margin-left: 0px !important;" id='cust1'><img id='icons' src='images/instagram.png'/></li></a>
-                        <a target="_blank" href="#"><li id='cust1'><img id='icons' src='images/facebook.png'/></li></a>
-                        <a target="_blank" href="#"><li id='cust1'><img id='icons' src='images/twitter.png'/></li></a>
-                    </ul>
-                </span>
-            </nav>
+            <span id='socialContainer' style="display: none;">
+                <ul style="padding: 0px;">
+                    <a target="_blank" href="#"><li style="margin-left: 0px !important;" id='cust1'><img id='icons' src='images/instagram.png'/></li></a>
+                    <a target="_blank" href="#"><li id='cust1'><img id='icons' src='images/facebook.png'/></li></a>
+                    <a target="_blank" href="#"><li id='cust1'><img id='icons' src='images/twitter.png'/></li></a>
+                </ul>
+            </span>
+        </nav>
         <div class="vertical-center">
-            <h1 data-aos="fade-down" style="margin-top: 0px !important;">doṫṫ</h1>
+            <h1 data-aos="fade-down" style="margin-top: 0px !important; font-family: 'Nothing You Could Do', cursive;">doṫṫ</h1>
+            <div data-aos="fade-up" id='reservations' style="margin-top: 0px !important;">Reservatons</div>
         </div>
         <div class="bg-image"></div>
     </header>
 
+    <section id='section3' data-aos="fade-up">
+        <div class="card card5" style="width: 100vw;">
+            <h3>A little about us.</h3>
+            <p style='font-size: 1.3rem; margin:0px; '>"More than a restaurant, a family"</p>
+            <p style='font-size: 1.3rem;'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores libero voluptas, officia tempore animi atque reprehenderit, aut maxime beatae ut perspiciatis expedita. Fugit necessitatibus laudantium illo dicta, molestias totam commodi! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos, dolore doloremque! Quam iste voluptatem eveniet, libero earum consequuntur ratione ut autem nesciunt dicta sint aliquid sed est, corrupti laboriosam consectetur? Lorem ipsum dolor sit Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, consectetur hic illum eius deleniti nobis, ullam laborum, asperiores ratione esse fuga magnam doloremque iste delectus minus accusamus aliquam eos fugit? consectetur? Lo</p>
+        </div>
+    </section>
+
+    <section id='section4'>
+        <h3 id="specialsTitle">Fan Favorites</h3>
+        <span id="card_container" class="row">
+            <div id='cardsContainer' data-aos="fade-up" class="col-sm col-md"> 
+                <div class="card card6" style="background-color: #bdbdbd17;">
+                    <img class="card-img-top" src="images/foodItem3.jpg" alt="Card image cap">
+                    <div class="card-body special_card_body">
+                    <h5 class="card-title special_card_title">Chefs Special Soup</h5>
+                    <p class="card-text special_card_desc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos omnis quas quia, fugiat exercitationem.</p>
+                    </div>
+                </div>
+            </div>
+            <div id='cardsContainer' data-aos="fade-up" class="col-sm col-md "> 
+                <div class="card card6" style="background-color: #bdbdbd17;">
+                    <img class="card-img-top" src="images/foodItem2.jpg" alt="Card image cap">
+                    <div class="card-body special_card_body">
+                        <h5 class="card-title special_card_title">Salmon Spread</h5>
+                        <p class="card-text special_card_desc">Aut minima, corrupti sit aliquam ad amet impedit repellat voluptates aliquid. Eveniet praesentium.</p>
+                    </div>
+                </div>
+            </div>
+            <div id='cardsContainer' data-aos="fade-up" class="col-sm col-md "> 
+                <div class="card card6" style="background-color: #bdbdbd17;">
+                    <img class="card-img-top" src="images/foodItem1.jpg" alt="Card image cap">
+                    <div class="card-body special_card_body">
+                    <h5 class="card-title special_card_title">Green Eggs and Ham</h5>
+                    <p class="card-text special_card_desc">Hic delectus inventore. Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis modi libero.</p>
+                    </div>
+                </div>
+            </div>
+        </span>
+    </section>
+
     <section id='section1'>
+        
+    </section>
+
+    <!-- <section id='section1'>
         <div id='aboutUsContainer'>
             <div class="card" id="card" style="width: 18rem;">
                 <div class="card-body" id='card-body1' data-aos="fade-right">
@@ -70,9 +115,9 @@
             <div class="card card2" id="card" style="width: 18rem;"><iframe id="gmaps" src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d3087.301956248142!2d-75.61127762699704!3d39.304078416620186!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1spats+pizza!5e0!3m2!1sen!2sus!4v1539236166810" class="googleMaps" allowfullscreen>
             </iframe></div>
         </div>
-    </section>
+    </section> -->
 
-    <section id='section2'>
+    <!-- <section id='section2'>
         <div class="card card3" id="card" style="width: 18rem;">
             <div class="card" id="card" style="width: 18rem;">
                 <div class="card-body" id='card-body2' data-aos="fade-left">
@@ -110,48 +155,7 @@
                 </a>
             </div>
         </div>
-    </section>
-
-    <section id='section3'>
-        <div class="card card5" style="width: 100vw;">
-            <h3>doṫṫ</h3>
-            <p style='font-size: 1.3rem; margin:0px;'>"More than a restaurant, a family"</p>
-            <p style='font-size: 1.5rem;'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores libero voluptas, officia tempore animi atque reprehenderit, aut maxime beatae ut perspiciatis expedita. Fugit necessitatibus laudantium illo dicta, molestias totam commodi! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos, dolore doloremque! Quam iste voluptatem eveniet, libero earum consequuntur ratione ut autem nesciunt dicta sint aliquid sed est, corrupti laboriosam consectetur? Lorem ipsum dolor sit Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, consectetur hic illum eius deleniti nobis, ullam laborum, asperiores ratione esse fuga magnam doloremque iste delectus minus accusamus aliquam eos fugit? consectetur? Lo</p>
-        </div>
-    </section>
-
-    <section id='section4'>
-        <h3 id="specialsTitle">Todays Specials</h3>
-        <span id="card_container" class="row">
-            <div id='cardsContainer' data-aos="fade-right" class="col-sm col-md"> 
-                <div class="card" style="background-color: #bdbdbd17;">
-                    <img class="card-img-top" src="images/foodItem3.jpg" alt="Card image cap">
-                    <div class="card-body special_card_body">
-                    <h5 class="card-title special_card_title">Chefs Special Soup</h5>
-                    <p class="card-text special_card_desc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos omnis quas quia, fugiat exercitationem.</p>
-                    </div>
-                </div>
-            </div>
-            <div id='cardsContainer' data-aos="fade-right" class="col-sm col-md "> 
-                <div class="card" style="background-color: #bdbdbd17;">
-                    <img class="card-img-top" src="images/foodItem2.jpg" alt="Card image cap">
-                    <div class="card-body special_card_body">
-                        <h5 class="card-title special_card_title">Salmon Spread</h5>
-                        <p class="card-text special_card_desc">Aut minima, corrupti sit aliquam ad amet impedit repellat voluptates aliquid. Eveniet praesentium.</p>
-                    </div>
-                </div>
-            </div>
-            <div id='cardsContainer' data-aos="fade-right" class="col-sm col-md "> 
-                <div class="card" style="background-color: #bdbdbd17;">
-                    <img class="card-img-top" src="images/foodItem1.jpg" alt="Card image cap">
-                    <div class="card-body special_card_body">
-                    <h5 class="card-title special_card_title">Green Eggs and Ham</h5>
-                    <p class="card-text special_card_desc">Hic delectus inventore. Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis modi libero.</p>
-                    </div>
-                </div>
-            </div>
-        </span>
-    </section>
+    </section> -->
     <br>
     <br>
     </span>

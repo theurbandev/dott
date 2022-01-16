@@ -1,5 +1,5 @@
 body{margin: 0px; background-color: #ebe9e6 !important;}
-li{list-style: none; width: 70vw;}
+li{list-style: none;}
 
 #back{color: black; position: absolute; top: 10px; left:10px; border:solid 2px black; padding: 5px;letter-spacing: 2px; font-family: 'Nothing You Could Do', cursive;}
 #reservations{
@@ -56,7 +56,7 @@ li{list-style: none; width: 70vw;}
 }
 #menuContentContainer{
     background-color: #1a1a1a;
-    width: 83vw;
+    width: 50vw;
     margin: 0 auto;
     height: auto;
     border-radius: 5px;
